@@ -3,8 +3,8 @@ import App from './App.vue'
 import Unicon from 'vue-unicons'
 import router from './router'
 
-import { uniAngleLeftB, uniSearch } from 'vue-unicons/dist/icons'
+import { uniSearch } from 'vue-unicons/dist/icons'
 
-Unicon.add([uniAngleLeftB, uniSearch])
+Unicon.add([uniSearch])
 
 createApp(App).use(router).use(Unicon).mount('#app')

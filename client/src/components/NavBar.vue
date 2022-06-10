@@ -2,9 +2,8 @@
   <nav>
     <div id="title">
       <router-link to="/">
-        <unicon name="angle-left-b" fill="white"
-      /></router-link>
-      |
+        <img src="/icons/left-arrow.svg" alt="left-arrow" />
+      </router-link>
       <h1>Généalogie d'Hébrail</h1>
     </div>
     <div>
@@ -22,17 +21,19 @@ nav {
   justify-content: space-between;
 }
 
+#icon {
+  margin: auto;
+  font-size: 1.5em;
+}
+
 #title {
   display: flex;
   flex-direction: row;
 }
 
-#title > element {
-  margin: auto 0.5em;
-}
-
 h1 {
   margin: 0;
+  padding: 0 0.5em;
 }
 </style>
 
